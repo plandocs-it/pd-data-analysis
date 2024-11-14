@@ -3,8 +3,8 @@
   "editor.fontSize": 16, // 에디터의 기본 글꼴 크기를 16으로 설정합니다.
   "editor.defaultFormatter": "esbenp.prettier-vscode", // 에디터의 기본 코드 포맷터로 prettier을 지정합니다.
   "editor.formatOnSave": true, // 저장 시 코드를 자동으로 포맷합니다.
-  "editor.inlineSuggest.enabled": true, // 인라인 자동 완성을 활성화합니다.
-  "editor.parameterHints.enabled": true, // 함수 호출 시 파라미터 정보를 보여주는 힌트를 활성화합니다.
+  // "editor.inlineSuggest.enabled": true, // 인라인 자동 완성을 활성화합니다.
+  // "editor.parameterHints.enabled": true, // 함수 호출 시 파라미터 정보를 보여주는 힌트를 활성화합니다.
 
   // 터미널 설정
   "terminal.integrated.fontSize": 16, // 터미널 글꼴 크기를 16으로 설정합니다.
@@ -20,18 +20,17 @@
   "notebook.formatOnSave.enabled": true, // 노트북 저장 시 자동으로 포맷합니다.
   // "notebook.output.scrolling": true, // 노트북 출력을 스크롤 가능하게 설정합니다.
   "notebook.lineNumbers": "on", // 노트북에서 줄 번호를 표시합니다.
+  "notebook.defaultFormatter": "ms-python.black-formatter",
 
   // 언어별 설정 (Python)
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.parameterHints.enabled": true
   },
 
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
-    "editor.formatOnType": true,
     "editor.formatOnSave": true
   }
 }
